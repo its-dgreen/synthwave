@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const About = () => (
   <Layout>
@@ -18,6 +18,6 @@ const About = () => (
       </p>
     </div>
   </Layout>
-)
+);
 
-export default About
+export default About;
