@@ -9,7 +9,7 @@ interface Props {
 const Header = ({ siteTitle }: Props) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#b967ff`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }: Props) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `black`,
             textDecoration: `none`,
           }}
         >
