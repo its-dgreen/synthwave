@@ -31,17 +31,6 @@ module.exports = {
       },
     },
     {
-      // Added custom fonts
-      // https://dev.to/iangloude/4-steps-to-self-hosted-fonts-in-gatsby-aj2
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        custom: {
-          families: ['Streamster, Atarian System'],
-          urls: ['/fonts/fonts.css'],
-        },
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/posts`,
