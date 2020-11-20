@@ -49,7 +49,7 @@ module.exports = {
       options: {
         custom: {
           families: ['Streamster, Atarian'],
-          urls: ['/fonts/fonts.css'],
+          urls: ['fonts/fonts.css'],
         },
       },
     },
