@@ -19,7 +19,6 @@ body {
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   background-image: url('../images/wall.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
 }
 article,

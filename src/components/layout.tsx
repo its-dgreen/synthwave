@@ -15,6 +15,9 @@ const MainLayout = styled.main`
   max-width: 50%;
   margin: 0 auto;
   padding: 0 1.0875rem 1.45rem;
+  @media only screen and (max-width: 1024px) {
+    max-width: 90%;
+  }
 `;
 
 const Layout = ({ children }: Props) => {
