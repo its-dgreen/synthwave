@@ -60,34 +60,6 @@ h1 {
   line-height: 1.5;
 }
 
-/* neon sign effect taken from: https://codepen.io/markheggan/pen/LjrVYN */
-
-.neon {
-  font-family: Streamster;
-  font-weight: bold;
-  text-rendering: optimizeLegibility;
-  color: #fff;
-  padding: 1rem 0;
-  text-transform: uppercase;
-  animation: neon 0.08s ease-in-out infinite alternate;
-  letter-spacing: 0.6vw;
-}
-
-@keyframes neon {
-  from {
-    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
-      0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
-      0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78),
-      0 0 54px rgba(30, 132, 242, 0.92);
-  }
-  to {
-    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
-      0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
-      0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
-      0 0 60px rgba(30, 132, 242, 1);
-  }
-}
-
 img {
   border-style: none;
   max-width: 100%;
@@ -174,8 +146,47 @@ li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 
+/* neon sign effect taken from: https://codepen.io/markheggan/pen/LjrVYN */
+
+.neon {
+  font-family: Streamster;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  color: #fff;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  animation: neon 0.08s ease-in-out infinite alternate;
+  letter-spacing: 0.6vw;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px rgba(30, 132, 242, 1);
+  }
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  h1.neon {
+    line-height: 7vh;
+    font-size: 1.8rem;
+  }
+  .neon {
+    letter-spacing: unset;
+    line-height: 6vh;
   }
 }

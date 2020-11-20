@@ -44,15 +44,6 @@ module.exports = {
         name: 'images',
       },
     },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        custom: {
-          families: ['Streamster, Atarian'],
-          urls: ['fonts/fonts.css'],
-        },
-      },
-    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
