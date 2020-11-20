@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Streamster';
-  src: url('Streamster.ttf') format('ttf');
+  src: url('Streamster.ttf');
 }
 
 @font-face {
-  font-family: 'Atarian System';
-  src: url('Atarian.ttf') format('ttf');
+  font-family: 'Atarian';
+  src: url('Atarian.ttf');
 }
