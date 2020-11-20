@@ -1,6 +1,7 @@
 # Synthwave
 
-For learning Gatsby.js, converted over to TypeScript
+For learning Gatsby.js, converted over to TypeScript. Information is from the
+[Synthesizer Article on Wikipedia](https://en.wikipedia.org/wiki/Synthesizer)
 
 #### Made by using:
 

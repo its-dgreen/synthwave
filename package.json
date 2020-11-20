@@ -1,7 +1,7 @@
 {
   "name": "synthwave",
   "private": true,
-  "description": "A simple Gatsby app",
+  "description": "Fun retro-style site that harkens back to the 1980's",
   "version": "0.1.0",
   "author": "Dylan Green <dylan@ctrlaltdylan.com>",
   "dependencies": {
