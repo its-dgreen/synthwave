@@ -7,8 +7,6 @@ const Logo = () => {
     query {
       file(relativePath: { eq: "synthwave.png" }) {
         childImageSharp {
-          # Specify a fixed image and fragment.
-          # The default width is 400 pixels
           fixed(width: 150, height: 150) {
             ...GatsbyImageSharpFixed
           }
@@ -21,7 +19,7 @@ const Logo = () => {
     return <div>Picture not found</div>;
   }
 
-  return <Img fixed={data.file.childImageSharp.fixed} />;
+  return <Img fixed={data.file.childImageSharp.fixed} alt="Synthwave Logo" />;
 };
 
 export default Logo;

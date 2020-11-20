@@ -1,27 +1,32 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+import styled from 'styled-components';
 import Logo from './logo';
 
+const HeaderWrapper = styled.header`
+  position: relative;
+  margin: 0 auto;
+  max-width: 85vw;
+  display: inline;
+  img {
+    margin-bottom: 0;
+  }
+`;
+
 const Header = () => (
-  <header>
-    <div
+  <HeaderWrapper>
+    <Link
+      to="/"
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
+        color: `black`,
+        textDecoration: `none`,
+        display: `inline-block`,
       }}
     >
-      <Link
-        to="/"
-        style={{
-          color: `black`,
-          textDecoration: `none`,
-        }}
-      >
-        <Logo />
-      </Link>
-    </div>
-  </header>
+      <Logo />
+    </Link>
+  </HeaderWrapper>
 );
 
 Header.propTypes = {
