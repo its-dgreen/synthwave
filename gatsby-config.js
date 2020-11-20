@@ -3,6 +3,7 @@ module.exports = {
     title: `Synthwave`,
     description: `Fun retro-style site that harkens back to the 1980's`,
     author: `@its-dgreen`,
+    siteUrl: `https://its-dgreen.github.io/synthwave`,
   },
   pathPrefix: '/synthwave',
   plugins: [
@@ -47,5 +48,6 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sitemap`,
   ],
 };
