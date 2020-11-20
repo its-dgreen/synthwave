@@ -4,6 +4,7 @@ module.exports = {
     description: `Fun retro-style site that harkens back to the 1980's`,
     author: `@its-dgreen`,
   },
+  pathPrefix: '/synthwave',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`,
